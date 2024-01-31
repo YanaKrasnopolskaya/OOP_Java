@@ -31,14 +31,16 @@ public class VeterinaryClinic extends Animal{
     public void addPatient(Animal patient){
         var time = LocalDateTime.now();
         patients.put(patient, time);
-        System.out.println("Пациент " + patient + " поступил в клинику " + time);
+        System.out.println("Пациент " + patient.getName() + " поступил в клинику " + time);
     }
     public void addDoctor(Doctor doctor){
         doctors.add(doctor);
     }
+
     public void addNurse(Nurse nurse){
         nurses.add(nurse);
     }
+
     public void addFlyingAnimals(Flyable animal){
 
         flyables.add(animal);
@@ -47,18 +49,19 @@ public class VeterinaryClinic extends Animal{
     public void addGoingAnimals(Goable animal){
         goables.add(animal);
     }
+
     public void addSwimingAnimals(Swimable animal){
         swimables.add(animal);
     }
-//    public void dateAdmission(Date date, String patient){
-//        System.out.println("Дата поступления пациента " + patient + ": " + date);
-//    }
+
     public String getName(){
         return name;
     }
+
     public String getAddress(){
         return address;
     }
+
     @Override
     public String toString() {
         return String.format("name: %s, address: %s", name, address);

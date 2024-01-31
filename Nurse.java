@@ -12,15 +12,19 @@ public class Nurse {
     public String getName(){
         return name;
     }
+
     public int getAge(){
         return age;
     }
+
     public int getExperience(){
         return experience;
     }
+
     public void setExperience(int experience){
         this.experience = experience;
     }
+
     public void patientCare(String patient){
         System.out.println("Медсестра " + getName() + " ухаживает за пациентом " + patient);
     }

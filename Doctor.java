@@ -18,15 +18,19 @@ public class Doctor{
     public String getName(){
         return name;
     }
+
     public int getAge(){
         return age;
     }
+
     public String getSpecialization(){
         return specialization;
     }
+
     public int getCabinetNumber(){
         return cabinetNumber;
     }
+
 
     public void terapyPatient(String patient){
         System.out.println("Доктор " + getName() + " лечит пациента " + patient);
