@@ -30,6 +30,8 @@ public class Main {
         vetClinic.addPatient(duck);
         vetClinic.addPatient(fish);
 
+        vetClinic.getPatients();
+
 
         vetClinic.addFlyingAnimals(duck);
         vetClinic.addFlyingAnimals(crow);

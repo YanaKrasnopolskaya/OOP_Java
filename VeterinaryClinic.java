@@ -31,7 +31,6 @@ public class VeterinaryClinic extends Animal{
     public void addPatient(Animal patient){
         var time = LocalDateTime.now();
         patients.put(patient, time);
-        System.out.println("Пациент " + patient.getName() + " поступил в клинику " + time);
     }
     public void addDoctor(Doctor doctor){
         doctors.add(doctor);
@@ -65,6 +64,14 @@ public class VeterinaryClinic extends Animal{
     @Override
     public String toString() {
         return String.format("name: %s, address: %s", name, address);
+    }
+
+    public void getPatients(){
+        System.out.println("Пациенты клиники:");
+        for (Animal patient : patients.keySet()){
+            var date = patients.get(patient);
+            System.out.println("Пациент: " + patient.getName() + ". Дата поступления: " + date);
+        }
     }
 
     public void getDoctors(){
