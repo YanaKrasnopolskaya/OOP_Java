@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Doctor{
-    private String name;
-    private int age;
-    private String specialization;
-    private int cabinetNumber;
+    private final String name;
+    private final int age;
+    private final String specialization;
+    private final int cabinetNumber;
 
     public Doctor(String name,int age, String specialization, int cabinetNumber){
 
