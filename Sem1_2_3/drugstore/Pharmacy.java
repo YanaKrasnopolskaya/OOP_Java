@@ -1,4 +1,4 @@
-package drugstore;
+package Sem1_2_3.drugstore;
 
 import java.util.ArrayList;
 import java.util.Iterator;

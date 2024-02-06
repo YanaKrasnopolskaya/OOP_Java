@@ -1,5 +1,7 @@
-import Interface.Flyable;
-import Interface.Goable;
+package Sem1_2_3;
+
+import Sem1_2_3.Interface.Flyable;
+import Sem1_2_3.Interface.Goable;
 
 import java.time.LocalDate;
 

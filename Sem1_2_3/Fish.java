@@ -1,4 +1,6 @@
-import Interface.Swimable;
+package Sem1_2_3;
+
+import Sem1_2_3.Interface.Swimable;
 
 import java.time.LocalDate;
 

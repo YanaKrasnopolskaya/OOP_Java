@@ -1,3 +1,5 @@
+package Sem1_2_3;
+
 public class Nurse {
     private String name;
     private int age;

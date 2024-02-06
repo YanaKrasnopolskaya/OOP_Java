@@ -1,8 +1,8 @@
-package drugstore;
+package Sem1_2_3.drugstore;
 
-import drugstore.components.Penicillin;
-import drugstore.components.Salt;
-import drugstore.components.Water;
+import Sem1_2_3.drugstore.components.Penicillin;
+import Sem1_2_3.drugstore.components.Salt;
+import Sem1_2_3.drugstore.components.Water;
 
 import java.util.ArrayList;
 import java.util.Collections;

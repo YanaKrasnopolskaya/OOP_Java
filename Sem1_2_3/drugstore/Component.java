@@ -1,4 +1,4 @@
-package drugstore;
+package Sem1_2_3.drugstore;
 
 public abstract class Component implements Comparable<Component>{
     private String name;
